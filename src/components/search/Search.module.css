@@ -1,0 +1,28 @@
+.search__container {
+  margin-bottom: 2rem;
+}
+
+.search__form {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.search__input {
+  font-family: inherit;
+  padding: 0.2rem 0.3rem;
+}
+
+.search__button {
+  border: 0;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
